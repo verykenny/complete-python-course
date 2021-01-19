@@ -13,7 +13,7 @@ def ask_user():
 def complex_calculation():
 	print('Started calculating...')
 	start = time.time()
-	[x**2 for x in range(20000000)]
+	[x**2 for x in range(200)]
 	print('complex_calculation: ', time.time() - start)
 
 
